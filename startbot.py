@@ -532,7 +532,6 @@ class Music:
                 raise MusicError('Bot already in a voice channel.')
 
 
-bot = commands.Bot(command_prefix='music.', description='hi.')
-bot.add_cog(Music(bot))
+client.add_cog(Music(bot))
 
 client.run(TOKEN)
