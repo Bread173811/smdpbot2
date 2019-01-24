@@ -5,7 +5,7 @@ from discord import Game
 from ctypes.util import find_library
 import random
 from discord import opus
-import nacl
+import pynacl
 import asyncio
 from itertools import cycle
 import time
