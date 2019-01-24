@@ -14,7 +14,6 @@ import math
 import itertools
 import youtube_dl
 from async_timeout import timeout
-TOKEN = 'NTIxNjUxMDE1MDI0NjQwMDAy.Du_hKg.0OlX_dr1l4UU8QvpQ4KHN5xegYw'
 client = commands.Bot(command_prefix = '.')
 print(commands)
 @client.event
