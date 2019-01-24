@@ -535,4 +535,4 @@ class Music:
 bot = commands.Bot(command_prefix='music.', description='hi.')
 bot.add_cog(Music(bot))
 
-bot.run(TOKEN)
+client.run(TOKEN)
