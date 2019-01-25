@@ -530,7 +530,4 @@ class Music:
             if ctx.voice_client.channel != ctx.author.voice.channel:
                 raise MusicError('Bot already in a voice channel.')
 
-
-client.add_cog(Music(bot))
-
 client.run(TOKEN)
