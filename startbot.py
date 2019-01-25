@@ -12,6 +12,7 @@ import functools
 import math
 import itertools
 import youtube_dl
+import pynacl
 from async_timeout import timeout
 client = commands.Bot(command_prefix = '.')
 print(commands)
