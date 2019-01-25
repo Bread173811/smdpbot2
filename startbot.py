@@ -18,7 +18,7 @@ print(commands)
 @client.event
 async def on_ready():
     print('Bot is ready!')
-    
+TOKEN = "NTIxNjUxMDE1MDI0NjQwMDAy.Du_hKg.0OlX_dr1l4UU8QvpQ4KHN5xegYw"
 #@client.event
 #async def on_message_delete(message):
 #    author = message.author
